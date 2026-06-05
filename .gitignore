@@ -1,0 +1,29 @@
+# Local secrets and machine-specific overrides.
+.env
+.env.*
+!.env.example
+
+# Runtime state.
+logs/
+data/
+server_logs*/
+*.log
+*.pid
+*.out
+*.offset
+
+# Local Python environment and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local backups and historical scratch files.
+backups/
+.trash_*/
+*.upload.tmp
+*.tar.gz
+*.tgz
+
+# OS/editor noise.
+.DS_Store
