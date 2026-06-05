@@ -254,20 +254,4 @@ deploy/jin10-ai-chat-bot.service
 - `QQ_BOT_API_URL`
 - `MARKET_PROXY_URL`
 
-## GitHub
 
-首次提交：
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial commit"
-```
-
-推送到已有 GitHub 仓库：
-
-```bash
-git remote add origin https://github.com/<user>/<repo>.git
-git push -u origin main
-```
